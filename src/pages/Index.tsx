@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import WorkoutCard, { WorkoutCardProps } from '@/components/WorkoutCard';
 import { motion } from 'framer-motion';
-import { ArrowRight, ArrowUp } from 'lucide-react';
+import { ArrowRight, ArrowUp, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react';
@@ -141,7 +141,8 @@ const Index = () => {
       
       <footer className="py-12 px-4 border-t">
         <div className="container mx-auto max-w-6xl text-center">
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground flex items-center justify-center gap-1.5">
+            Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> by <span className="font-medium">user123</span> | 
             &copy; {new Date().getFullYear()} MyWorkout Plan. All rights reserved.
           </p>
         </div>

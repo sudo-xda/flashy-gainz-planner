@@ -1,3 +1,4 @@
+
 import { useParams, Navigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import WorkoutDay, { Exercise, WorkoutDayProps } from '@/components/WorkoutDay';
@@ -235,6 +236,14 @@ const Workout = () => {
     >
       <Navbar />
       <WorkoutDay {...workout} />
+      
+      <footer className="py-8 px-4 border-t mt-8">
+        <div className="container mx-auto max-w-6xl text-center">
+          <p className="text-muted-foreground flex items-center justify-center gap-1.5">
+            <span className="text-xs">&copy; {new Date().getFullYear()} GENZ Workout Plan by user123</span>
+          </p>
+        </div>
+      </footer>
     </motion.div>
   );
 };
