@@ -66,6 +66,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Sports-inspired colors
+				race: {
+					red: '#FF1E00',
+					blue: '#0078FF',
+					yellow: '#FFD700',
+					green: '#00FF7F',
+					black: '#121212',
+				},
+				energy: {
+					orange: '#FF5F1F',
+					pink: '#FF36AB',
+					purple: '#9C36FF',
+					yellow: '#FFE600',
+				},
+				tech: {
+					cyan: '#00E6FF',
+					blue: '#0050FF',
+					indigo: '#5E00FF',
+					teal: '#00FFBF',
 				}
 			},
 			borderRadius: {
@@ -113,6 +133,16 @@ export default {
 				'scale-in': {
 					'0%': { transform: 'scale(0.95)', opacity: '0' },
 					'100%': { transform: 'scale(1)', opacity: '1' }
+				},
+				'glow': {
+					'0%, 100%': { 
+						'text-shadow': '0 0 5px currentColor, 0 0 10px currentColor',
+						'box-shadow': '0 0 5px currentColor'
+					},
+					'50%': { 
+						'text-shadow': '0 0 10px currentColor, 0 0 20px currentColor',
+						'box-shadow': '0 0 10px currentColor'
+					}
 				}
 			},
 			animation: {
@@ -123,7 +153,13 @@ export default {
 				'slide-up': 'slide-up 0.4s ease-out',
 				'slide-down': 'slide-down 0.4s ease-out',
 				'pulse-slow': 'pulse-slow 3s infinite',
-				'scale-in': 'scale-in 0.3s ease-out'
+				'scale-in': 'scale-in 0.3s ease-out',
+				'glow': 'glow 3s infinite'
+			},
+			boxShadow: {
+				'neon-blue': '0 0 5px #00E6FF, 0 0 10px rgba(0, 230, 255, 0.5)',
+				'neon-red': '0 0 5px #FF1E00, 0 0 10px rgba(255, 30, 0, 0.5)',
+				'neon-green': '0 0 5px #00FF7F, 0 0 10px rgba(0, 255, 127, 0.5)',
 			}
 		}
 	},
