@@ -1,4 +1,3 @@
-
 import { useParams, Navigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import WorkoutDay, { Exercise, WorkoutDayProps } from '@/components/WorkoutDay';
@@ -79,7 +78,7 @@ const workoutData: Record<string, WorkoutDayProps> = {
         sets: 4,
         reps: '6-10 reps',
         rest: '2 min',
-        notes: 'For pull-ups, use a grip slightly wider than shoulder width. If you can't do at least 6 strict pull-ups, use lat pulldowns instead.'
+        notes: 'For pull-ups, use a grip slightly wider than shoulder width. If you can\'t do at least 6 strict pull-ups, use lat pulldowns instead.'
       },
       {
         id: 'pull-2',
