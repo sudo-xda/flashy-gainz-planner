@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tight animate-slide-up" style={{ animationDelay: '0.2s' }}>
-          <span className="text-gradient">My Workout</span> Plan
+          <span className="text-gradient">GENZ</span> Workout Plan
         </h1>
         
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-slide-up" style={{ animationDelay: '0.3s' }}>
