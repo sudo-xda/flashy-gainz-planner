@@ -142,8 +142,8 @@ const Index = () => {
       <footer className="py-12 px-4 border-t">
         <div className="container mx-auto max-w-6xl text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-1.5">
-            Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> by <span className="font-medium">user123</span> | 
-            &copy; {new Date().getFullYear()} MyWorkout Plan. All rights reserved.
+            Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> by <span className="font-medium">sudo-xda</span> | 
+            &copy; {new Date().getFullYear()} All rights reserved.
           </p>
         </div>
       </footer>
